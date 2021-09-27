@@ -91,7 +91,7 @@ dependencies {
     }
     jenkinsPlugins 'org.jenkins-ci.plugins:structs:1.19'
     jenkinsPlugins 'org.jenkins-ci.plugins:script-security:1.54'
-    optionalJenkinsPlugins('org.jenkins-ci.plugins:vsphere-cloud:1.1.11') {
+    optionalJenkinsPlugins('org.jenkins-ci.plugins:vsphere-cloud:2.17') {
         exclude group: 'dom4j'
     }
     optionalJenkinsPlugins 'org.jenkins-ci.plugins:config-file-provider:2.15.4'
