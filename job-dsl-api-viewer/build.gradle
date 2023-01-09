@@ -46,7 +46,7 @@ configurations {
 }
 
 dependencies {
-    webjars 'org.webjars:bootstrap:3.3.4'
+    webjars 'org.webjars:bootstrap:3.4.1'
     webjars 'org.webjars:jquery:1.11.1'
     webjars 'org.webjars:jquery-ui:1.11.3'
     webjars 'org.webjars:jqueryui-layout:1.4.0'
