@@ -23,7 +23,7 @@ configure(subprojects - project(':job-dsl-api-viewer')) {
         testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
         testCompile 'junit:junit:4.12'
         testCompile 'cglib:cglib-nodep:3.2.5' // used by Spock
-        testCompile 'org.objenesis:objenesis:2.5.1' // used by Spock
+        testCompile 'org.objenesis:objenesis:3.4' // used by Spock
     }
 
     codenarc {
