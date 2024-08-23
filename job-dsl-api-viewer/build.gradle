@@ -52,7 +52,7 @@ dependencies {
     webjars 'org.webjars:jqueryui-layout:1.4.0'
     webjars 'org.webjars:jstree:3.0.4'
     webjars 'org.webjars:handlebars:4.0.2'
-    webjars 'org.webjars.npm:underscore:1.7.0'
+    webjars 'org.webjars.npm:underscore:1.13.7'
     webjars 'org.webjars.npm:backbone:1.2.3'
     webjars 'org.webjars.npm:backbone.marionette:2.4.2'
     webjars 'org.webjars:highlightjs:8.4-4'
