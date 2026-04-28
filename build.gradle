@@ -21,8 +21,8 @@ configure(subprojects - project(':job-dsl-api-viewer')) {
     dependencies {
         compile "org.codehaus.groovy:groovy-all:${groovyVersion}"
         testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
-        testCompile 'junit:junit:4.12'
-        testCompile 'cglib:cglib-nodep:3.2.5' // used by Spock
+        testCompile 'junit:junit:4.13.2'
+        testCompile 'cglib:cglib-nodep:3.3.0' // used by Spock
         testCompile 'org.objenesis:objenesis:2.5.1' // used by Spock
     }
 
@@ -75,7 +75,7 @@ project(':job-dsl-core') {
 
     dependencies {
         astCompile "org.codehaus.groovy:groovy-all:${groovyVersion}"
-        compile 'xmlunit:xmlunit:1.4' // for runtime use, not just for testing
+        compile 'xmlunit:xmlunit:1.6' // for runtime use, not just for testing
         compile('org.jvnet.hudson:xstream:1.4.7-jenkins-1') {
             exclude group: 'xmlpull'
             exclude group: 'xpp3'
